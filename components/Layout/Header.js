@@ -42,7 +42,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              Sobre nós
             </LinkScroll>
             {/* <LinkScroll
               activeClass="active"
@@ -96,7 +96,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Testimonial
+              Comentários
             </LinkScroll>
           </ul>
           {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">

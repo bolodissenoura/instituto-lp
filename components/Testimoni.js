@@ -10,37 +10,55 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "Luiza Moraes",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Jacareí",
+      country: "Brasil",
       rating: "4.5",
       testimoni:
         "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
     },
     {
-      name: "iezh Robert",
+      name: "Luiza Moraes",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Jacareí",
+      country: "Brasil",
       rating: "4.5",
       testimoni:
         "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
     },
     {
-      name: "iezh Robert",
+      name: "Luiza Moraes",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Jacareí",
+      country: "Brasil",
       rating: "4.5",
       testimoni:
         "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
     },
     {
-      name: "iezh Robert",
+      name: "Luiza Moraes",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Jacareí",
+      country: "Brasil",
+      rating: "4.5",
+      testimoni:
+        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
+    },
+    {
+      name: "Luiza Moraes",
+      image: "/assets/people-3.png",
+      city: "Jacareí",
+      country: "Brasil",
+      rating: "4.5",
+      testimoni:
+        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
+    },
+    {
+      name: "Luiza Moraes",
+      image: "/assets/people-3.png",
+      city: "Jacareí",
+      country: "Brasil",
       rating: "4.5",
       testimoni:
         "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",

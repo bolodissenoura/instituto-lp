@@ -17,7 +17,7 @@ const Pricing = () => {
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
-        <div className="flex flex-col w-full">
+        {/* <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -191,13 +191,12 @@ const Pricing = () => {
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}> 
+            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}>
               <Maps className="w-full h-auto" />
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
-              {/* <Netflix className="h-18 w-auto" /> */}
               <img
                 src="/assets/Icon/amazon.png"
                 className="h-14 w-auto mt-4 lg:mt-2"
@@ -225,14 +224,14 @@ const Pricing = () => {
               />
             </motion.div>
           </ScrollAnimationWrapper>
-        </div>
+        </div> */}
         <div className="flex flex-col w-full my-16" id="testimoni">
           <ScrollAnimationWrapper>
-            <motion.h3
+            {/* <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
               Trusted by Thousands of Happy Customer{" "}
-            </motion.h3>
+            </motion.h3> */}
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
@@ -246,7 +245,7 @@ const Pricing = () => {
               <Testimoni />
             </motion.div>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="relative w-full mt-16">
+          {/* <ScrollAnimationWrapper className="relative w-full mt-16">
             <motion.div variants={scrollAnimation} custom={{duration: 3}}>
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
@@ -262,7 +261,7 @@ const Pricing = () => {
                 style={{ filter: "blur(114px)" }}
                 ></div>
             </motion.div>
-          </ScrollAnimationWrapper>
+          </ScrollAnimationWrapper> */}
         </div>
       </div>
     </div>

@@ -8,6 +8,11 @@ const features = [
   "Parceria com GeekOne.",
   "Grades extras curriculares.",
   "Sistema de pagamento X.",
+  "Sistema de pagamento X.",
+  "Sistema de pagamento X.",
+  "Sistema de pagamento X.",
+  "Sistema de pagamento X.",
+  "Sistema de pagamento X.",
   "acompanhamento com psicologa."
 ]
 

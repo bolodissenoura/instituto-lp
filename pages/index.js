@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import About from "../components/about";
+import Contact from "../components/contact";
+import { benefitTwo } from "../components/data"
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
         {/* <About /> */}
         <div id="metodologia"/>
         <Feature />
+        <div id="comentarios"/>
         <Pricing />
+        <Contact imgPos="right" data={benefitTwo} />
       </Layout>
     </>
   );

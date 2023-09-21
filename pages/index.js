@@ -13,11 +13,11 @@ export default function Home() {
       <SeoHead title='Instituto' />
       <Layout>
         <Hero />
-        <div id="about"/>
-        {/* <About /> */}
+        <div />
+        <About />
         <div id="metodologia"/>
         <Feature />
-        <div id="comentarios"/>
+        <div id="segmentos"/>
         <Pricing />
         <Contact imgPos="right" data={benefitTwo} />
       </Layout>

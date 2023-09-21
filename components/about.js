@@ -4,9 +4,9 @@ import AboutText from '../components/aboutText';
 
 const about = () => {
   return (
-    <div className="relative">
-      <BackgroundVideo />
-      <AboutText />
+    <div>
+      {/* <BackgroundVideo /> */}
+      <AboutText/>
     </div>
   );
 };

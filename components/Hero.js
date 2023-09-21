@@ -29,7 +29,6 @@ const Hero = ({
   return (
     <div
       className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
-      id="about"
     >
       <ScrollAnimationWrapper>
           <motion.div
@@ -48,7 +47,7 @@ const Hero = ({
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/Illustration1.svg"
-                  alt="VPN Illustrasi"
+                  alt="illustrasi"
                   quality={100}
                   width={612}
                   height={383}
@@ -82,10 +81,7 @@ const Hero = ({
             </motion.div>
           ))}
        </ScrollAnimationWrapper>
-       <div
-          className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
-          style={{ filter: "blur(114px)" }}
-       ></div>
+       <div id="about"/>
       </div>
     </div>
   );

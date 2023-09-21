@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 
 // import react slick
 import Slider from "react-slick";
@@ -6,65 +6,42 @@ import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
+import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import getScrollAnimation from "../utils/getScrollAnimation";
+import { motion } from "framer-motion";
 
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "Luiza Moraes",
+      name: "Educação Infantil",
       image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
+      city: "0 a 6 anos",
+      country: "",
+      rating: "",
       testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
+        "Nossa Educação Infantil: onde a curiosidade floresce, os amigos são encontrados e o aprendizado ganha vida!",
     },
     {
-      name: "Luiza Moraes",
+      name: "Ensino Fundamental",
       image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
+      city: "1º ao 9º",
+      country: "",
+      rating: "",
       testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
+        "No Ensino Fundamental, construímos alicerces sólidos para um futuro de aprendizado contínuo. É um lugar onde a imaginação floresce, as amizades são forjadas e o conhecimento se expande",
     },
     {
-      name: "Luiza Moraes",
+      name: "Ensino Medio",
       image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
+      city: "1º ao 3º",
+      country: "",
+      rating: "",
       testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
-    },
-    {
-      name: "Luiza Moraes",
-      image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
-      testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
-    },
-    {
-      name: "Luiza Moraes",
-      image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
-      testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
-    },
-    {
-      name: "Luiza Moraes",
-      image: "/assets/people-3.png",
-      city: "Jacareí",
-      country: "Brasil",
-      rating: "4.5",
-      testimoni:
-        "A Escola é um ambiente acolhedor e inspirador, onde alunos e educadores colaboram para alcançar o sucesso acadêmico e pessoal. Uma escola que valoriza o aprendizado e o desenvolvimento integral dos estudantes.",
+        "No Ensino Médio, estamos moldando líderes, pensadores críticos e cidadãos responsáveis. É uma jornada de descoberta, crescimento e preparação para os desafios e oportunidades que aguardam nossos alunos após a graduação",
     },
   ],
 }) => {
+  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
   const settings = {
     dots: true,
     customPaging: function (i) {
@@ -101,6 +78,13 @@ const Testimoni = ({
 
   return (
     <>
+      <ScrollAnimationWrapper>
+      <motion.div variants={scrollAnimation}>
+        <h1 className="mb-20 flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          SEGMENTOS
+        </h1>
+      </motion.div>  
+      </ScrollAnimationWrapper>
       <Slider
         {...settings}
         arrows={false}
@@ -108,7 +92,7 @@ const Testimoni = ({
         className="flex items-stretch justify-items-stretch"
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div className="px-3 flex items-stretch" key={index}>
+          <div className="px-3 flex items-stretch" key={index}> 
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
@@ -123,23 +107,17 @@ const Testimoni = ({
                       {listTestimonis.name}
                     </p>
                     <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
+                      {listTestimonis.city}
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
-                  <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
-                  </span>
-                </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left">{listTestimonis.testimoni}.</p>
             </div>
           </div>
         ))}
       </Slider>
-      <div className="flex w-full items-center justify-end">
+      {/* <div className="flex w-full items-center justify-end">
         <div className="flex flex-none justify-between w-auto mt-14">
           <div
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
@@ -154,7 +132,7 @@ const Testimoni = ({
             <ArrowNext className="h-6 w-6" />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

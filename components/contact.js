@@ -1,42 +1,51 @@
 import Image from "next/image";
-import React from "react";
+import React, { useMemo } from "react";
+import { motion } from "framer-motion";
 import Container from "./container";
+import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import getScrollAnimation from "../utils/getScrollAnimation";
 
 const Benefits2 = (props) => {
   const { data } = props;
+  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  
   return (
     <>
-      <Container className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto ">
-        <div
-          className={`items-center w-full ${
-            data.imgPos === "right" ? "lg:justify-end" : ""
-          }`}>
-          <div>
-            <div className="max-w-screen-xl mx-auto">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-black-800 lg:leading-tight lg:text-4xl">
-                {data.title}
-              </h3>
+      <ScrollAnimationWrapper>
+        <motion.div variants={scrollAnimation}>
+          <Container className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto ">
+            <div
+              className={`items-center w-full ${
+                data.imgPos === "right" ? "lg:justify-end" : ""
+              }`}>
+              <div>
+                <div className="max-w-screen-xl mx-auto">
+                  <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-black-800 lg:leading-tight lg:text-4xl">
+                    {data.title}
+                  </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
-                {data.desc}
-              </p>
-            </div>
+                  <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
+                    {data.desc}
+                  </p>
+                </div>
 
-            <div className="w-full mt-5">
-              {data.bullets.map((item, index) => (
-                <Benefit2 key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
-                </Benefit2>
-              ))}
-            </div>
-              <div className="flex flex-col w-full mt-4">
-                <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
-                  Por favor, sinta-se à vontade para nos contatar a qualquer momento. Estamos ansiosos para ouvir de você e para responder a todas as suas perguntas. Seja para agendar uma visita, obter informações sobre inscrições ou apenas para compartilhar suas ideias, estamos aqui para ajudar. Sua opinião e feedback são fundamentais para continuarmos melhorando e proporcionando a melhor experiência educacional possível.
-                </p>
+                <div className="w-full mt-5">
+                  {data.bullets.map((item, index) => (
+                    <Benefit2 key={index} title={item.title} icon={item.icon}>
+                      {item.desc}
+                    </Benefit2>
+                  ))}
+                </div>
+                  <div className="flex flex-col w-full mt-4">
+                    <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
+                      Por favor, sinta-se à vontade para nos contatar a qualquer momento. Estamos ansiosos para ouvir de você e para responder a todas as suas perguntas. Seja para agendar uma visita, obter informações sobre inscrições ou apenas para compartilhar suas ideias, estamos aqui para ajudar. Sua opinião e feedback são fundamentais para continuarmos melhorando e proporcionando a melhor experiência educacional possível.
+                    </p>
+                  </div>
               </div>
-          </div>
-        </div>
-      </Container>
+            </div>
+          </Container>
+        </motion.div>
+      </ScrollAnimationWrapper>
     </>
   );
 };

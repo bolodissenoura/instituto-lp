@@ -1,12 +1,12 @@
 import React, { useMemo } from "react";
+import { motion } from "framer-motion";
 import ButtonInstagram from "./misc/ButtonInstagram";
 import getScrollAnimation from "../utils/getScrollAnimation";
-import { motion } from "framer-motion";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const Galery = () => {
-
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  
   return (
     <ScrollAnimationWrapper>
       <motion.div variants={scrollAnimation}>

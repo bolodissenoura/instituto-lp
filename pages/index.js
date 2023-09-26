@@ -15,13 +15,14 @@ export default function Home() {
       <SeoHead title="Instituto" />
       <Layout>
         <Hero />
-        <div />
+        <div id="about"/>
         <Osc />
         <About />
         <div id="metodologia" />
         <Feature />
         <div id="segmentos" />
         <Pricing />
+        <div id="galeria" />
         <Osc />
         <Galery />
         <Contact imgPos="right" data={benefitTwo} />

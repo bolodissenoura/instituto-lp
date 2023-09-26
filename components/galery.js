@@ -10,6 +10,7 @@ const Galery = () => {
   return (
     <ScrollAnimationWrapper>
       <motion.div variants={scrollAnimation}>
+        <h1 className="mb-20 flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">Galeria</h1>
         <div>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-xl mx-auto">
             <div class="grid gap-4">

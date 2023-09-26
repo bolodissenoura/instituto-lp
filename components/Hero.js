@@ -81,7 +81,6 @@ const Hero = ({
             </motion.div>
           ))}
        </ScrollAnimationWrapper>
-       <div id="about"/>
       </div>
     </div>
   );

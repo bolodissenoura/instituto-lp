@@ -12,7 +12,7 @@ const Benefits2 = (props) => {
             data.imgPos === "right" ? "lg:justify-end" : ""
           }`}>
           <div>
-            <div className="flex flex-col w-full mt-4">
+            <div className="max-w-screen-xl mx-auto">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-black-800 lg:leading-tight lg:text-4xl">
                 {data.title}
               </h3>

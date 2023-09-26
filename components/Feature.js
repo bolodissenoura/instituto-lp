@@ -25,7 +25,7 @@ const Feature = () => {
     >
       <ScrollAnimationWrapper>
       <motion.div variants={scrollAnimation}>
-        <h1 className="flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+        <h1 className="flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600 mb-20">
           METODOLOGIA
         </h1>
       </motion.div>  

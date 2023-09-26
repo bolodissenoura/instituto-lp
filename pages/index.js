@@ -6,6 +6,7 @@ import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import About from "../components/about";
 import Contact from "../components/contact";
+import Galery from "../components/galery";
 import { benefitTwo } from "../components/data";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <div id="segmentos" />
         <Pricing />
         <Osc />
+        <Galery />
         <Contact imgPos="right" data={benefitTwo} />
       </Layout>
     </>

@@ -25,14 +25,14 @@ const Feature = () => {
     >
       <ScrollAnimationWrapper>
       <motion.div variants={scrollAnimation}>
-        <h1 className="flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+        <h1 className="flex flex-col items-center justify-center text-3xl lg:text-4xl font-medium leading-relaxed text-black-600 mb-20">
           SOBRE NÓS
         </h1>
       </motion.div>  
       </ScrollAnimationWrapper>
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2">
         <ScrollAnimationWrapper>
-        <motion.div className="flex flex-col items-start justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+        <motion.div className="flex flex-col items-start justify-center w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-2xl lg:text-3xl font-medium leading-relaxed text-black-600">
             Bem-Vindos à Instituto Educacional Marques Moraes
           </h3>

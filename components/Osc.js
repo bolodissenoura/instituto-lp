@@ -21,9 +21,6 @@ const Osc = () => {
             <ButtonPrimary>Conhecer OSC</ButtonPrimary>
           </div>
         </div>
-        <div
-          className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
-          style={{ filter: "blur(114px)" }}></div>
       </motion.div>
     </ScrollAnimationWrapper>
   );

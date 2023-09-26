@@ -14,7 +14,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Educação Infantil",
-      image: "/assets/people-3.png",
+      image: "",
       city: "0 a 6 anos",
       country: "",
       rating: "",
@@ -23,7 +23,7 @@ const Testimoni = ({
     },
     {
       name: "Ensino Fundamental",
-      image: "/assets/people-3.png",
+      image: "",
       city: "1º ao 9º",
       country: "",
       rating: "",
@@ -32,7 +32,7 @@ const Testimoni = ({
     },
     {
       name: "Ensino Medio",
-      image: "/assets/people-3.png",
+      image: "",
       city: "1º ao 3º",
       country: "",
       rating: "",
@@ -100,7 +100,7 @@ const Testimoni = ({
                     src={listTestimonis.image}
                     height={50}
                     width={50}
-                    alt="Icon People"
+                    alt="Icon class"
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">

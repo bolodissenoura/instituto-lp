@@ -25,6 +25,7 @@ export default function Home() {
         <div id="galeria" />
         <Osc />
         <Galery />
+        <div id="contato" />
         <Contact imgPos="right" data={benefitTwo} />
       </Layout>
     </>

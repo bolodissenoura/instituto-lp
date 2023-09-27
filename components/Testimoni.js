@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 // import react slick
 import Slider from "react-slick";
 import Image from "next/image";
-import Stars from "../public/assets/Icon/stars.svg";
+import book from "../public/assets/book.png";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
@@ -14,7 +14,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Educação Infantil",
-      image: "",
+      image: "/assets/book.png",
       city: "0 a 6 anos",
       country: "",
       rating: "",
@@ -23,7 +23,7 @@ const Testimoni = ({
     },
     {
       name: "Ensino Fundamental",
-      image: "",
+      image: "/assets/book.png",
       city: "1º ao 9º",
       country: "",
       rating: "",
@@ -32,7 +32,7 @@ const Testimoni = ({
     },
     {
       name: "Ensino Medio",
-      image: "",
+      image: "/assets/book.png",
       city: "1º ao 3º",
       country: "",
       rating: "",

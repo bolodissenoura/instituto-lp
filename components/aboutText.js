@@ -4,18 +4,6 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const features = [
-  "Parceria com GeekOne.",
-  "Grades extras curriculares.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "acompanhamento com psicologa."
-]
-
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 

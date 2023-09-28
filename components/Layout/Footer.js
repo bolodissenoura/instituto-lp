@@ -51,7 +51,7 @@ const Footer = () => {
                   setActiveLink("about");
                 }}
                 className={
-                  "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                  "px-4 py-2 mx-2 w-32 cursor-pointer animation-hover inline-block relative" +
                   (activeLink === "about"
                     ? " text-orange-500 animation-active "
                     : " text-black-500 hover:text-orange-500 a")

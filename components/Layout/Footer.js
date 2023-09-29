@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <p className="text-gray-400">©{new Date().getFullYear()} - Instituto</p>
         </div>
-        <div class="row-span-3 col-start-5 col-end-6 flex flex-col">
+        <div className="row-span-3 col-start-5 col-end-6 flex flex-col">
           <br/>
           <ul>
             <li>

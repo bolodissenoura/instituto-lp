@@ -22,9 +22,9 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
-            <LogoEM className="h-12 w-auto" />
+        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4 ">
+          <div className="col-start-1 col-end-2 flex items-center justify-items-center">
+            <LogoEM className="flex h-12 w-auto" />
             {/* <p><strong>I.E Marques Moraes</strong></p> */}
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
@@ -150,7 +150,7 @@ const Header = () => {
       {/* Mobile Navigation */}
 
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
-        <div className="bg-white-500 sm:px-3">
+        <div className="rounded-3xl bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"

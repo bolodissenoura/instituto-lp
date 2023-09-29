@@ -36,6 +36,7 @@ const Hero = ({
       <section
       style={{ backgroundColor: "rgba(255, 255, 255, 0.7)" }}
       >
+        <br/>
         <div
           className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
         >

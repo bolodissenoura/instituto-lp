@@ -8,16 +8,15 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 const Benefits2 = (props) => {
   const { data } = props;
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
-  
+
   return (
     <>
       <ScrollAnimationWrapper>
         <motion.div variants={scrollAnimation}>
           <Container className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto ">
             <div
-              className={`items-center w-full ${
-                data.imgPos === "right" ? "lg:justify-end" : ""
-              }`}>
+              className={`items-center w-full ${data.imgPos === "right" ? "lg:justify-end" : ""
+                }`}>
               <div>
                 <div className="max-w-screen-xl mx-auto">
                   <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-black-800 lg:leading-tight lg:text-4xl">
@@ -36,11 +35,12 @@ const Benefits2 = (props) => {
                     </Benefit2>
                   ))}
                 </div>
-                  <div className="flex flex-col w-full mt-4">
-                    <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
-                      Por favor, sinta-se à vontade para nos contatar a qualquer momento. Estamos ansiosos para ouvir de você e para responder a todas as suas perguntas. Seja para agendar uma visita, obter informações sobre inscrições ou apenas para compartilhar suas ideias, estamos aqui para ajudar. Sua opinião e feedback são fundamentais para continuarmos melhorando e proporcionando a melhor experiência educacional possível.
-                    </p>
-                  </div>
+                <div className="flex flex-col w-full mt-4">
+                  <a href="https://www.google.com/maps/place/R.+Utah,+300+-+Jardim+Florida,+Jacare%C3%AD+-+SP,+12321-720/data=!4m2!3m1!1s0x94cdcca1b23e7427:0xa53af75f86cd5d5c?sa=X&ved=1t:242&ictx=111">Clique aqui para ir com Google Maps</a>
+                  <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
+                    O Instituto Educacional Marques Moraes conta com uma infraestrutura completa que inclui laboratório de ciências, quadra de esportes descoberta, biblioteca, sala de leitura, parque infantil, berçário, refeitório, pátio coberto e descoberto, área verde e acesso à internet. Tudo isso aliado a uma alimentação adequada para os estudantes.
+                  </p>
+                </div>
               </div>
             </div>
           </Container>

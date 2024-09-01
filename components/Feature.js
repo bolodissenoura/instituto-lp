@@ -5,16 +5,19 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Parceria com GeekOne.",
   "Grades extras curriculares.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "Sistema de pagamento X.",
-  "acompanhamento com psicologa."
-]
+  "Acompanhamento com psicóloga.",
+  "Grupos de Estudos e Monitoria no I.E. Marques Moraes.",
+  "Espaço para Expressão de Ideias e Sugestões Através de Assembleias.",
+  "Projetos Estudantis com Reuniões e Propostas Inovadoras.",
+  "Programas de Empreendedorismo Rentável Sócio Cultural.",
+  "Educação Financeira: Preparando Jovens para o Futuro.",
+  "Atividades Extracurriculares: Balé e Futebol para Infantil e Fundamental I.",
+  "Aulas de Inglês, Música e Dança no I.E. Marques Moraes.",
+  "Tae-kwon-do, Culinária e Projeto Cultura Maker.",
+  "Projeto Sustentabilidade e Projeto Bilíngue.",
+  "Parceria com a Escola de Idiomas UK: Método Callan para Ensino de Inglês."
+];
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -71,6 +74,7 @@ const Feature = () => {
             )}
           </ul>
         </motion.div>
+        <iframe width="560" height="315" className="w-full sm:hidden mt-4" src="https://www.youtube.com/embed/5EQPkYhsNM4?si=ik4YnqVStIESMYiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </ScrollAnimationWrapper>
       </div>
     </div>

@@ -23,10 +23,10 @@ const benefitTwo = {
       },
       {
         title: "Localização",
-        desc: "Rua Fulador cilano de beutrano",
+        desc: "Rua Utah, 300, no Jardim Flórida, Jacareí",
         icon: <MapPinIcon />,
       },
     ],
   };
   
-  export {benefitTwo };
+  export {benefitTwo};

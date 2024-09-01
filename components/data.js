@@ -12,13 +12,13 @@ const benefitTwo = {
     image: benefit,
     bullets: [
       {
-        title: "Telefone Celular",
-        desc: "55+ (12) 99999-9999",
+        title: "Telefone",
+        desc: "(12) 3962-3406",
         icon: <DevicePhoneMobileIcon />,
       },
       {
         title: "Email",
-        desc: "Email@Email.com.br",
+        desc: "contatoiemarquesmoraes@yahoo.com.br",
         icon: <AtSymbolIcon />,
       },
       {

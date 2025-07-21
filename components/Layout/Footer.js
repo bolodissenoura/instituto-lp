@@ -2,7 +2,6 @@ import React, { useState, useEffect }  from "react";
 import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
 import LogoEM from "../../public/assets/Icon/iconEM.svg";
 
@@ -25,15 +24,12 @@ const Footer = () => {
             Empenhados na educação de qualidade, seguindo o legado inspirador de <strong>José Pacheco</strong>.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            <a href="https://www.facebook.com/institutomarquesmoraes" target="_blank" rel="noopener noreferrer" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md hover:bg-orange-100 transition-colors">
               <Facebook className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            </a>
+            <a href="https://www.instagram.com/institutomarquesmoraes" target="_blank" rel="noopener noreferrer" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md hover:bg-orange-100 transition-colors">
               <Instagram className="h-6 w-6" />
-            </div>
+            </a>
           </div>
           <p className="text-gray-400">©{new Date().getFullYear()} - Instituto</p>
         </div>

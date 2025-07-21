@@ -5,7 +5,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Grades extras curriculares.",
+  "Ensino individualizado por aluno",
   "Acompanhamento com psicóloga.",
   "Grupos de Estudos e Monitoria no I.E. Marques Moraes.",
   "Espaço para Expressão de Ideias e Sugestões Através de Assembleias.",
@@ -13,10 +13,9 @@ const features = [
   "Programas de Empreendedorismo Rentável Sócio Cultural.",
   "Educação Financeira: Preparando Jovens para o Futuro.",
   "Atividades Extracurriculares: Balé e Futebol para Infantil e Fundamental I.",
-  "Aulas de Inglês, Música e Dança no I.E. Marques Moraes.",
-  "Tae-kwon-do, Culinária e Projeto Cultura Maker.",
-  "Projeto Sustentabilidade e Projeto Bilíngue.",
-  "Parceria com a Escola de Idiomas UK: Método Callan para Ensino de Inglês."
+  "Aulas de Inglês e Dança no I.E. Marques Moraes.",
+  "Culinária e Projeto Cultura Maker.",
+  "Projeto Sustentabilidade e Projeto Bilíngue."
 ];
 
 const Feature = () => {
@@ -50,10 +49,10 @@ const Feature = () => {
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            Fique por dentro dos metodos usados em nossa intituição
+            Fique por dentro dos métodos usados em nossa instituição
           </h3>
           <p className="my-2 text-black-500">
-            Metodos estudados e comprovados para um amior rendimento educaional para seu filho.
+            Métodos estudados e comprovados para um maior rendimento educacional para seu filho.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (

@@ -49,7 +49,7 @@ const Hero = ({
                     Venha conhecer o <strong>Instituto Educacional Marques Moraes</strong>.
                   </h1>
                   <p className="text-black-500 mt-4 mb-6">
-                    Aqui seu filho tera a educação nescessaria pra alcançar o sucesso
+                    Aqui seu filho terá a educação necessária para alcançar o sucesso
                   </p>
                   <ButtonPrimary>Saiba mais</ButtonPrimary>
                 </div>

@@ -13,7 +13,7 @@ import { benefitTwo } from "../components/data";
 export default function Home() {
   return (
     <>
-      <SeoHead title="Instituto" />
+      <SeoHead title="Instituto Educacional Marques Moraes" />
       <Layout>
         <Hero />
         <div id="about"/>

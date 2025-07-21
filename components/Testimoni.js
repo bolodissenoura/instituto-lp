@@ -31,7 +31,7 @@ const Testimoni = ({
         "No Ensino Fundamental, construímos alicerces sólidos para um futuro de aprendizado contínuo. É um lugar onde a imaginação floresce, as amizades são forjadas e o conhecimento se expande",
     },
     {
-      name: "Ensino Medio",
+      name: "Ensino Médio",
       image: "/assets/book.png",
       city: "1º ao 3º",
       country: "",

@@ -38,7 +38,7 @@ const Benefits2 = (props) => {
                 <div className="flex flex-col w-full mt-4">
                   <a href="https://www.google.com/maps/place/R.+Utah,+300+-+Jardim+Florida,+Jacare%C3%AD+-+SP,+12321-720/data=!4m2!3m1!1s0x94cdcca1b23e7427:0xa53af75f86cd5d5c?sa=X&ved=1t:242&ictx=111">Clique aqui para ir com Google Maps</a>
                   <p className="max-w-2xl py-4 text-lg leading-normal lg:text-xl xl:text-xl dark:text-gray-300">
-                    O Instituto Educacional Marques Moraes conta com uma infraestrutura completa que inclui laboratório de ciências, quadra de esportes descoberta, biblioteca, sala de leitura, parque infantil, berçário, refeitório, pátio coberto e descoberto, área verde e acesso à internet. Tudo isso aliado a uma alimentação adequada para os estudantes.
+                    O Instituto Educacional Marques Moraes conta com uma infraestrutura completa que inclui quadra descoberta, biblioteca, parque infantil, berçário, refeitório, pátio coberto e descoberto, área verde e acesso à internet. Tudo isso aliado a uma alimentação adequada para os estudantes do período integral.
                   </p>
                 </div>
               </div>

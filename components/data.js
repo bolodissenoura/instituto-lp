@@ -8,7 +8,7 @@ import benefit from "../public/assets/Illustration1.svg";
 
 const benefitTwo = {
     title: "CONTATO",
-    desc: "Na Instituição Marques Moraes, estamos sempre à disposição para atender às suas dúvidas, ouvir seus comentários e auxiliar no que for necessário. Acreditamos na importância da comunicação aberta e estamos aqui para proporcionar o melhor suporte possível.",
+    desc: "No Instituto Educacional Marques Moraes, estamos sempre à disposição para atender às suas dúvidas, ouvir seus comentários e auxiliar no que for necessário. Acreditamos na importância da comunicação aberta e estamos aqui para proporcionar o melhor suporte possível.",
     image: benefit,
     bullets: [
       {

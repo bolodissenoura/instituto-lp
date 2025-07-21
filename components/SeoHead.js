@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "Instituto  Marques Moraes",
-  siteName: "Instituto  Marques Moraes",
-  description: "Escola Marques Moraes",
+  title: "Instituto Educacional Marques Moraes",
+  siteName: "Instituto Educacional Marques Moraes",
+  description: "Instituto Educacional Marques Moraes",
   // change base url of your web (without '/' at the end)
   url: "#",
   type: "website",

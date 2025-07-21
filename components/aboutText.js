@@ -22,7 +22,7 @@ const Feature = () => {
         <ScrollAnimationWrapper>
           <motion.div className="flex flex-col items-start justify-center w-full lg:w-9/12" variants={scrollAnimation}>
             <h3 className="text-2xl lg:text-3xl font-medium leading-relaxed text-black-600">
-              Bem-Vindos à Instituto Educacional Marques Moraes
+              Bem-vindos ao Instituto Educacional Marques Moraes
             </h3>
             <p className="my-2 text-black-500">
               O Instituto Educacional Marques Moraes tem, ao longo dos seus 10 anos de existência, se empenhado em proporcionar uma educação integral que vai além de um simples espaço físico. Com uma abordagem centrada na crença de que “Escola não é Prédio, Escola são pessoas”, atendemos desde o Berçário até o Ensino Médio, oferecendo jornadas no período da manhã, tarde ou integral. A nossa missão é clara: promover um Ensino de Formação para a Vida, focado em Ética, Cidadania e Valores essenciais.

@@ -17,9 +17,9 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <title>Instituto Marques Moraes</title>
+          <title>Instituto Educacional Marques Moraes</title>
 
-          <meta name="title" content="Instituto Marques Moraes" />
+          <meta name="title" content="Instituto Educacional Marques Moraes" />
           <meta
             name="description"
             content="Instituto Educacional Marques Moraes"
@@ -30,7 +30,7 @@ class MyDocument extends Document {
             property="og:url"
             content="https://i.ibb.co/mGNhJBG/Hero-3.png"
           />
-          <meta property="og:title" content="Instituto Marques Moraes" />
+          <meta property="og:title" content="Instituto Educacional Marques Moraes" />
           <meta
             property="og:description"
             content="Instituto Educacional Marques Moraes"
@@ -45,7 +45,7 @@ class MyDocument extends Document {
             property="twitter:url"
             content="https://i.ibb.co/mGNhJBG/Hero-3.png"
           />
-          <meta property="twitter:title" content="Instituto Marques Moraes" />
+          <meta property="twitter:title" content="Instituto Educacional Marques Moraes" />
           <meta
             property="twitter:description"
             content="Instituto Educacional Marques Moraes"
